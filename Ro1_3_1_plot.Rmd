@@ -1,0 +1,28 @@
+---
+title: "RO1_3_1_plot"
+author: "湯威翰"
+date: "2020/3/26"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+```{r}
+library(datasets)
+dim(iris)
+```
+
+```{r}
+head(iris)
+```
+
+```{r}
+plot(iris$Species)
+```
+
+```{r}
+plot(iris$Petal.Length)
+```
