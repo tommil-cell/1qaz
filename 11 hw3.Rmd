@@ -1,0 +1,19 @@
+---
+title: "hw3"
+author: "湯威翰"
+date: "2020/4/11"
+output: html_document
+---
+```{r}
+summary(mtcars)
+```
+
+```{r}
+hist(mtcars$mpg)
+hist(mtcars$cyl)
+hist(mtcars$hp)
+```
+
+```{r}
+plot(mtcars$wt, mtcars$mpg)
+```
